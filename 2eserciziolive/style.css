@@ -1,0 +1,87 @@
+:root{
+    --ye: rgb(250, 234, 0);
+    --main: rgb(27, 21, 64);
+    --acc: rgb(187, 38, 193);
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-custom{
+    background-image: url(./media\ progetto\ webina\ retrogaming/bg-1.jpg);
+}
+
+.btn-custom{
+    border: 1px solid var(--ye);
+    color: var(--ye);
+}
+
+.btn-custom:hover{
+    background-color: var(--ye);
+    color: black;
+    transition: 0.5s;
+}
+
+.bi-calendar2-week{
+    color: var(--ye);
+}
+
+.data{
+    font-weight: 700;
+}
+
+/* section 2 */
+.section2-custom{
+    background-color: var(--main);
+}
+
+/* section 3 */
+.calendar-form{
+    font-size: 50px;
+    margin-right: 20px;
+    background-color: var(--ye);
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.section3-custom{
+    min-height: 70vh;
+    background-image: url(./media\ progetto\ webina\ retrogaming/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-custom{
+    background-color: var(--main);
+    padding: 70px 20px;
+    top: 100px;
+}
+
+input{
+    background-color: var(--main);
+    border: none;
+    border-bottom: 1px solid var(--acc);
+}
+
+.btn-customform{
+    background-color: var(--ye);
+}
+
+/* section4 */
+.section4-custom{
+    background-color: rgb(17, 13, 44);
+    padding: 100px 20px;
+}
+
+.h2-title{
+    color: var(--ye);
+}
+
+/* section 5 */
+
+.section5-custom{
+    background-image: url(./media\ progetto\ webina\ retrogaming/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
